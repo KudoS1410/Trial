@@ -76,6 +76,10 @@ header h1{
   transition: 0.5s all ease;
 }
 
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 4px 4px;
+}
+
 /* custmm bullets style */
 .swiper-pagination-bullet {
   width: 25px;
@@ -98,15 +102,7 @@ header h1{
   align-items: stretch;
 }
 
-.swiper-button-next{
-  height: 100px;
-  width: 60px;
-  position: absolute;
-  top: 370px;
-  transition: 0.5s all ease;
-}
-
-.swiper-button-prev{
+.swiper-button-next,.swiper-button-prev{
   height: 100px;
   width: 60px;
   position: absolute;
@@ -214,7 +210,7 @@ footer:after {
     top: 325px;
     height: 50px;
   }
-  .swiper-button-next:after,.swiper-button-prev::after{
+  .swiper-button-next:after,.swiper-button-prev:after{
     font-size: 20px;
   }
   .swiper-button-next:active{
@@ -224,6 +220,12 @@ footer:after {
   .swiper-button-prev:active{
     background-color: #292727;
     color: #41FD69;
+  }
+  .swiper-pagination-bullet{
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-size: 12px;
   }
   footer{
     margin-top: 40px;
