@@ -4,7 +4,7 @@
 
 html, body {
   position: relative;
-  /*height: 100%;*/
+  height: 100vh;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch; 
 }
@@ -16,8 +16,8 @@ body {
   color:#000;
   margin: 0;
   padding: 0;
-  height: 100%;
-  min-height: 100%;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 header{
@@ -45,7 +45,7 @@ header h1{
 }
 
 .swiper-wrapper {
-  height: 100%;
+  height: 100vh;
   margin: auto;
 }
 
@@ -54,7 +54,7 @@ header h1{
   font-size: 18px;
   background: #333333;
   margin: auto;
-  height: 80%;
+  height: 80vh;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.6);
 
   /* Center slide text vertically */
@@ -121,7 +121,7 @@ footer{
 
 .footer-col {
   float: left;
-  width: 24%;
+  width: 24vw;
   text-align: center;
   font-size: 15px;
   font-family: 'Muli', sans-serif;
@@ -202,7 +202,7 @@ footer:after {
     width: 350px;
   }
   .swiper-container{
-    width: 100%;
+    width: 100vw;
     height: 430px;
   }
   .swiper-wrapper{
@@ -234,7 +234,7 @@ footer:after {
   }
   .footer-col{
     margin-top: 20px;
-    width: 100%;
+    width: 100vw;
     font-size: 10px;
     float: none;
   }
@@ -248,6 +248,6 @@ footer:after {
 
 @media screen and (max-width: 800px) and (min-width: 600px){
   .panels{
-    width: 80%;
+    width: 80vw;
   }
 }
